@@ -1,0 +1,10 @@
+fastapi>=0.115,<1.0
+uvicorn>=0.30,<1.0
+pydantic>=2.7,<3.0
+httpx>=0.27,<1.0  # TestClient support for the included API regression tests
+# Required to run reviews from the website; installed by the launch scripts:
+# python -m pip install --upgrade unvibecode
+# Optional legacy Gradio UI dependencies (the website itself does not need them):
+# gradio>=5.0,<7.0
+# plotly>=5.0
+# pandas>=2.0
